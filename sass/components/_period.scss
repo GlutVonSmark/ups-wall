@@ -1,0 +1,33 @@
+.period {
+	width: 15%;
+	height: 55rem;
+	padding: 3rem;
+
+	&__header {
+		padding: 3rem;
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	.event__year {
+		font-weight: 700;
+		font-size: 2rem;
+	}
+
+	&__events {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 100%;
+		align-content: space-evenly;
+	}
+
+	&__event {
+		padding: 1rem;
+		width: 30%;
+	}
+
+	.event__text {
+		font-size: 1.7rem;
+	}
+}

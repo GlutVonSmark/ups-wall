@@ -1,0 +1,3 @@
+@mixin image-bar-item-background($image-url) {
+    background-image: linear-gradient($image-background-color, $image-background-color), $image-url
+}
