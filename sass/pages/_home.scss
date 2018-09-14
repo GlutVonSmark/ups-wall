@@ -1,6 +1,18 @@
 .history {
     display: flex;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2rem; //overwriten everywhere?
+    transition: all 0.5s;
 }
 
+@media all and (max-width: $width-break-point) {
+    .main {
+        /*display: flex;*/
+        margin-left: 2rem;
+    }
+
+    .history {
+        flex-direction: column;
+        font-size: 0.5rem; //overwriten everywhere?
+    }
+}

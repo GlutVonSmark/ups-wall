@@ -1,4 +1,4 @@
-html, body {
+html, body, .main{
     height: 100%;
 }
 
@@ -19,4 +19,16 @@ body {
     letter-spacing: 1.3rem;
 }
 
+
+
+@media all and (max-width: $width-break-point) {
+    body, html, .main {
+        width: 100%;
+    }
+
+    .heading-primary {
+        font-size: 2rem;
+        letter-spacing: inherit;
+    }
+}      
 
